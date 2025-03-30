@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, lightblue, lightgreen);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.textColor{
+    color: #000A78;
+}
+
+.note{
+    border-radius: 1.5rem;
+    resize: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    color: #000A78;
+    outline: none !important;
+    background: rgba(255, 255, 255, .1);
+    border: none;
+}
+
+.note::placeholder{
+    color: gray;
+    opacity: 30%;
+}
+
+.note:hover, .note:focus{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.customBtn{
+    color: gray;
+    font-size: 6rem;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.27);
+    cursor: pointer;
+}
+
+.customBtn:hover{
+    background: rgba(255, 255, 255, 0.55);
+    color: rgba(0, 0, 0, 0.6);
+}
